@@ -1,0 +1,41 @@
+h2{
+    color: blue ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*esto es un comentario de CSS*/
+
+h1{
+    color: crimson;
+    background-color:bisque; /*este es el color de fondo de la etiqueta*/
+    text-align: center;
+}
+p{
+    color:blueviolet;
+    text-shadow: 0px;
+}
+
+.destacado{
+    color: rgb(255, 0, 149);
+    font-size: 22px;  /*tamaño de la fuente*/
+    font-style: italic; /*tipo de fuente: italica*/
+    font-weight: bold; /*negrita*/
+}
+
+#rojo{
+    width: 300px;/*ANCHO*/
+    height: 400px;/*ALTO*/
+    background-color: lightcoral;
+    text-align: center;
+    margin: 100px;
+    border-right: 5px dashed rebeccapurple; 
+}
+
+#celeste{
+    width: 300px;
+    height: 400px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 100px;
+    border: 5px solid black;
+}
