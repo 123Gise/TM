@@ -1,0 +1,14 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Raleway', sans-serif;*/
+
+h2{
+    color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-weight:bolder; /*negrita*/
+}

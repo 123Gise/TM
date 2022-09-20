@@ -1,0 +1,19 @@
+.contenedor{
+    background-color: grey;
+    display: flex;
+    /* justify-content: center; PARA CENTRAR*/
+    /* justify-content: flex-end DERECHA AL FINAL; */
+     justify-content: space-between;
+    
+}
+
+.item{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

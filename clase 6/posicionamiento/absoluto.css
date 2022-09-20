@@ -1,0 +1,34 @@
+.contenedor{
+    background-color:rgb(169, 174,178);
+    width: 60%;
+    margin: 0 auto;/*arriba y abajo  derecha e izquierda*/
+    height: 600px;/* no se recomienda poner el alto porque deberia determinarlo el alto del contenido*/ /* aca lo usamos solo para entender el ejemplo*/
+    
+
+}
+
+.verde{
+    background-color: lightgreen;
+    width: 90%;
+    margin: 0 auto 20px; /*arriba-laterales -abajo*/
+    height: 150px;
+   position: absolute;
+   top: 0;
+   left: 0;
+} 
+
+.celeste{
+    background-color: lightblue;
+    width: 90%;
+    margin: 0 auto 20px; /*arriba-laterales -abajo*/
+    height: 150px;
+    position: absolute;
+}
+
+.amarillo{
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto 20px; /*arriba-laterales -abajo*/
+    height: 150px;
+    position: absolute;
+}

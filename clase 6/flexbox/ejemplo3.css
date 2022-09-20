@@ -1,0 +1,17 @@
+.contenedor{
+    background-color: grey;
+    /*DIFERENTES FORMAS DE ACOMODAR LAS CAJITAS-VERTICA/HORIZONTAL/ O CAMBIANDO EL ORDEN*/
+    /* display:inline-flex; */ 
+    /* flex-direction:row-reverse; */
+    /* flex-direction: column-reverse; */
+    display: inline-flex;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.item{
+    background-color: aqua;
+    width: 300px;
+    height: 100px;
+    margin: 20px;
+    font-size: 25px;
+}
