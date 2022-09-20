@@ -1,0 +1,27 @@
+.caja{
+    background-color: aquamarine;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transition: all 0.5s ease;
+}
+
+.caja:hover{
+    /* transform: scale(1.1); */
+    background-color: blueviolet;
+    color: coral;
+}
+
+img{
+    filter: grayscale(16%) blur(0px) opacity(91%);
+    transition: all 0.5s ease;
+
+}
+ 
+img:hover{
+    filter: grayscale(16%) blur(1px) opacity(91%);
+
+}

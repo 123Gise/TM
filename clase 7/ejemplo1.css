@@ -1,0 +1,11 @@
+.caja{
+    background-color: aquamarine;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    /* transform: rotate(-90deg); lo voy rotando segun los grados que uso, en este caso gire 90°*/
+    /* transform: scale(0.9); agrando o achico la caja */
+}

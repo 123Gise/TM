@@ -1,0 +1,29 @@
+.caja{
+    background-color: aquamarine;
+    width: 400px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    transform: scale(0.5) rotate(-45deg);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    animation: rectangulo 6s ease;
+}
+
+@keyframes rectangulo{
+    15%{
+        background-color: red;
+        transform: scale(1.1);
+    }
+
+    35%{
+        background-color: blue;
+        transform: scale(0.9);
+    }
+
+    50%{
+        background-color: green;
+        transform: scale(1.1);
+    }
