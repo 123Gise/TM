@@ -6,7 +6,7 @@ body {
 
 header {
     background-color: #2e64a1;
-   padding-top: 16px;
+    padding-top: 16px;
 }
 
 h1 {
@@ -70,14 +70,14 @@ h2 {
     /* background-color: yellow; */
 }
 
-.testimonios{
+.testimonios {
     width: 25%;
     /* background-color: coral; */
 }
 
-.columnas{
+.columnas {
     display: flex;
-    
+
 }
 
 footer {
@@ -86,15 +86,16 @@ footer {
     text-align: center;
     padding: 40px 0;
     /*40 marca arriba y abajo  --- el 0 marca izquierda y derecha*/
-    margin-top: 20px; /*para separarlo de la cajita de testimonio*/
+    margin-top: 20px;
+    /*para separarlo de la cajita de testimonio*/
 }
 
-.testimonio{
+.testimonio {
     background-color: #ccc;
     padding: 16px;
 }
 
-.testimonio .cita{
+.testimonio .cita {
     font-size: 24px;
     font-weight: bold;
     font-style: italic;
@@ -102,67 +103,114 @@ footer {
     display: block;
 }
 
-.testimonio .autor{
+.testimonio .autor {  
     font-size: 11px;
     background-color: lightblue;
     text-align: center;
     display: block;
     margin-top: 16px;
+   
 }
-
-.persona{
+.personas{
+    display: flex;
+    justify-content: space-between;
+}
+.persona{ 
     border: 1px solid #ddd;
     border-radius: 5px;
     width: 18%;
     box-sizing: border-box;
+    text-align: center;
+    padding: 8px;
 
 }
 
-.personas img{
+.persona img {
     border-radius: 50%;
     max-width: 65%;
     box-shadow: 0 0 5px black;
-    margin:13px 0 16px;
+    margin-top: 13px;
+}
+
+.historia p { /*da forma al parrafo de historia*/
+    font-size: 13px;
+}
+
+.persona h5 .persona h6 {
+    color: #2e64a1;
+    font-weight: normal;
+    margin: 0;
 
 }
 
-.historia p{
-    font-size: 13px;
- }
-
- .persona h5
- .persona h6{
-    color:#2e64a1;
-    font-weight: normal;
-    margin: 0;
-    
- }
-
- .persona h5{
+.persona h5 {
     font-size: 16px;
- }
+}
 
- .persona h6{
+.persona h6 {
     font-style: italic;
- }
+}
 
- .persona p{
+.persona p {
     font-size: 12px;
-    line-height: 16px; /*espacio entre linea y linea da aire a la tipografia*/
- }
+    line-height: 16px;
+    /*espacio entre linea y linea da aire a la tipografia*/
+}
 
- .servicio{
+.servicio {
     border: 1px solid black;
     border-radius: 10px;
     margin: 16px 0;
     padding: 16px;
- }
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
 
- .servicio .info h4{
+.servicio .info h4 {
     color: #2e64a1;
     font-size: 20px;
     font-weight: 500;
     font-style: italic;
     border-bottom: 1px solid #2e64a1;
     padding-bottom: 8px;
- }
+}
+
+.servicio img {
+    border-radius: 15px;
+}
+
+.servicio:nth-child(even) {
+    /*hijos pares*/
+    flex-direction: row-reverse;
+}
+
+.contacto {
+    display: flex;
+}
+
+.contacto section {
+    width: 100%;
+}
+
+.datos p {
+    font-size: 14px;
+}
+
+.datos ul li {
+    font-size: 13px;
+}
+
+.formulario p label {
+    min-width: 100px;
+
+}
+
+.formulario p {
+    display: flex;
+}
+
+.formulario p input .formulario p textarea {
+    /*background-color: orange;*/
+    width: 100%;
+}
