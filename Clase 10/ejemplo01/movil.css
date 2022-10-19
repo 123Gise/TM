@@ -1,0 +1,17 @@
+body{
+    background-color: blue;
+}
+
+h1{
+    color: yellow;
+}
+
+p{
+    font-family: verdana;
+    font-size: 25px;
+}
+
+h2{
+    color: greenyellow;
+    display: none;
+}
